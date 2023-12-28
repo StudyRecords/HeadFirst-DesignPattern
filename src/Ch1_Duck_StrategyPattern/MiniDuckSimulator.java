@@ -1,6 +1,6 @@
-package Chapter1_Duck;
+package Ch1_Duck_StrategyPattern;
 
-import Chapter1_Duck.fly.FlyRocketPowered;
+import Ch1_Duck_StrategyPattern.fly.FlyRocketPowered;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {

@@ -1,6 +1,4 @@
-package Chapter1_Duck.fly;
-
-import Chapter1_Duck.quack.QuackBehavior;
+package Ch1_Duck_StrategyPattern.fly;
 
 public class FlyWithWings implements FlyBehavior {
 

@@ -1,7 +1,7 @@
-package Chapter1_Duck;
+package Ch1_Duck_StrategyPattern;
 
-import Chapter1_Duck.fly.FlyWithWings;
-import Chapter1_Duck.quack.Quack;
+import Ch1_Duck_StrategyPattern.fly.FlyWithWings;
+import Ch1_Duck_StrategyPattern.quack.Quack;
 
 public class MallardDuck extends Duck{
 
