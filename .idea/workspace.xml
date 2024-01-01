@@ -6,6 +6,29 @@
   <component name="ChangeListManager">
     <list default="true" id="1a198133-a5a1-432c-a701-857ecc5613d9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/PizzaTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/PizzaTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/SimplePizzaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/SimplePizzaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaStore/CaliforniaPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaStore/CaliforniaPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaStore/ChicagoPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaStore/ChicagoPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaStore/NYPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaStore/NYPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaStore/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaStore/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/CheesePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/ClamPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/PepperoniPizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/abstractFactoryPattern/pizzaType/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/VeggiePizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/california/CaliforniaCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/california/CaliforniaCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/california/CaliforniaClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/california/CaliforniaClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/california/CaliforniaPepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/california/CaliforniaPepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/california/CaliforniaVeggiePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/california/CaliforniaVeggiePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/chicago/ChicagoCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/chicago/ChicagoCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/chicago/ChicagoClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/chicago/ChicagoClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/chicago/ChicagoPepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/chicago/ChicagoPepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/chicago/ChicagoVeggiePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/chicago/ChicagoVeggiePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/nyStyle/NYStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/nyStyle/NYStyleCheesePizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/nyStyle/NYStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/nyStyle/NYStyleClamPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/nyStyle/NYStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/nyStyle/NYStylePepperoniPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/nyStyle/NYStyleVeggiePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch4_FactoryPattern/factoryMethodPattern/pizzaType/nyStyle/NYStyleVeggiePizza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +38,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -40,6 +63,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lyouxsun/Desktop/Spring/DesignPattern/src/Ch4_FactoryPattern/pizzaType/california&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -49,13 +73,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StarbucksCoffee">
-    <configuration name="Ch2_ObserverPattern.weather.WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch2_ObserverPattern.weather.WeatherStation" />
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Ch4_FactoryPattern.abstractFactoryPattern.pizza" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/california" />
+      <recent name="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType/chicago" />
+      <recent name="$PROJECT_DIR$/src/Ch4_FactoryPattern/pizzaType" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Ch4_FactoryPattern" />
+      <recent name="Ch4_FactoryPattern.abstractFactoryPattern.pizzaStore" />
+      <recent name="Ch4_FactoryPattern.abstractFactoryPattern.pizza" />
+      <recent name="Ch4_FactoryPattern.pizzaStore" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PizzaTestDrive2">
+    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch3_DecoraterPattern.javaIO.InputTest" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch2_ObserverPattern.weather.*" />
+          <option name="PATTERN" value="Ch3_DecoraterPattern.javaIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +103,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch3_DecoraterPattern.javaIO.InputTest" />
+    <configuration name="PizzaAbstractFactoryTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4_FactoryPattern.abstractFactoryPattern.PizzaAbstractFactoryTestDrive" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch3_DecoraterPattern.javaIO.*" />
+          <option name="PATTERN" value="Ch4_FactoryPattern.abstractFactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4_FactoryPattern.PizzaTestDrive" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch4_FactoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PizzaTestDrive2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch4_FactoryPattern.PizzaTestDrive2" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch4_FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,39 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch2_ObserverPattern.swingObserver.SwingObserverExample" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch2_ObserverPattern.swingObserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch2_ObserverPattern.Ch2_Weather_ObserverPattern.WeatherStation" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch2_ObserverPattern.weather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PizzaTestDrive2" />
+        <item itemvalue="Application.PizzaAbstractFactoryTestDrive" />
+        <item itemvalue="Application.PizzaTestDrive" />
         <item itemvalue="Application.StarbucksCoffee" />
         <item itemvalue="Application.InputTest" />
-        <item itemvalue="Application.Ch2_ObserverPattern.weather.WeatherStation" />
-        <item itemvalue="Application.SwingObserverExample" />
-        <item itemvalue="Application.WeatherStation" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +175,9 @@
       <updated>1703661507869</updated>
       <workItem from="1703661509665" duration="5245000" />
       <workItem from="1703747411503" duration="11840000" />
-      <workItem from="1703777689604" duration="16667000" />
+      <workItem from="1703777689604" duration="33310000" />
+      <workItem from="1704008252365" duration="5565000" />
+      <workItem from="1704104056625" duration="3887000" />
     </task>
     <servers />
   </component>
